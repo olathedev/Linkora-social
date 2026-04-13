@@ -1,0 +1,11 @@
+{
+  "name": "contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "stellar contract build",
+    "test": "cargo test",
+    "dev": "cargo watch -x test",
+    "format": "cargo fmt"
+  }
+}

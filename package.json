@@ -1,0 +1,17 @@
+{
+  "name": "linkora-socials",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:contracts": "pnpm --filter contracts dev",
+    "build": "turbo run build",
+    "build:contracts": "pnpm --filter contracts build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.15.9"
+}
